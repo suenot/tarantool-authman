@@ -39,7 +39,7 @@ local config = {
 auth = require('authman').api(config)
 
 ```
-Create symlink in /etc/tarantool/intanses.enabled:
+Create symlink in /etc/tarantool/instances.enabled:
 ```
 $ ln -s /etc/tarantool/instances.availible/tarantool-authman.lua .
 ```
